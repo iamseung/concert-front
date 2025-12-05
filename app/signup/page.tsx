@@ -119,7 +119,7 @@ export default function SignUpPage() {
                 required
                 value={formData.userName}
                 onChange={handleChange}
-                className="w-full px-4 py-4 border border-gray-200 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all text-base"
+                className="w-full px-4 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all text-base text-gray-900 bg-white"
                 placeholder="홍길동"
               />
             </div>
@@ -138,7 +138,7 @@ export default function SignUpPage() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-4 border border-gray-200 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all text-base"
+                className="w-full px-4 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all text-base text-gray-900 bg-white"
                 placeholder="example@email.com"
               />
             </div>
@@ -157,8 +157,8 @@ export default function SignUpPage() {
                 required
                 value={formData.password}
                 onChange={handleChange}
-                className="w-full px-4 py-4 border border-gray-200 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all text-base"
-                placeholder="최소 6자 이상"
+                className="w-full px-4 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all text-base text-gray-900 bg-white"
+                placeholder="비밀번호 입력"
               />
             </div>
 
@@ -176,8 +176,8 @@ export default function SignUpPage() {
                 required
                 value={formData.passwordConfirm}
                 onChange={handleChange}
-                className="w-full px-4 py-4 border border-gray-200 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all text-base"
-                placeholder="비밀번호를 다시 입력하세요"
+                className="w-full px-4 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all text-base text-gray-900 bg-white"
+                placeholder="비밀번호 재입력"
               />
             </div>
 
